@@ -1,16 +1,10 @@
 # wallcraft-scraper
 This Python script utilizes the WallpaperCraft API to fetch 15 (or more) top-rated wallpapers with any themed query, tailored for a screen resolution of any pixels.
 
-# WallpaperCraft API Wrapper
-
-This Python script serves as a simple wrapper for the WallpaperCraft API, allowing you to retrieve wallpapers based on various parameters.
-
 ## Base API URL
-- https://api-uc.wallpaperscraft.com/images
+- URL: https://api-uc.wallpaperscraft.com/images
 ## Parameters
-
-- **cost_variant** (optional)
-- : Specify the cost variant, e.g., `'ios_cost_2'`.
+- **cost_variant** (optional): Specify the cost variant, e.g., `'ios_cost_2'`.
 - **lang** (optional): Language code, e.g., `'en'` for English.
 - **limit** (required): Number of wallpapers to retrieve (default is 15 in this script).
 - **offset** (optional): Offset for paginating through results.
