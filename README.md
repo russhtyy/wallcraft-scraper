@@ -36,9 +36,10 @@ params = {
 
 response = requests.get(base_url, params=params).json()
 print(response)
+```
 
 ## Example Response
-```python
+```javascript
 {
   "count": 572,
   "items": [
@@ -125,3 +126,4 @@ print(response)
   ],
   "response_time": "2023-12-25T00:25:13Z"
 }
+```
